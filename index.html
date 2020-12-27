@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description" content="Vous avez un projet web ? La Webagency vous aide à le réaliser !">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" >
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous">
+    </script>
+    <script src="main.js" async></script>
+    <title>WebAgency</title>
+  </head>   
+
+  <body>
+    <div id="bloc_page">
+      <header> 
+        <a id="acceuil"></a>
+        <div id="bloc_naviguation">              
+          <div id="logo">
+            <a href="#ancre_logo"><img src="images/logo.png" alt="Logo de la WebAgency"/></a>
+          </div>
+          <nav id="main_menu">
+            <ul>
+                <li><a href="#acceuil">Acceuil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projets">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>            
+          </nav>             
+        </div>
+      </header> 
+
+      <section>
+        <div id="bloc_slider">
+          <div id="slider">
+            <div id="images_slider">               
+              <img class="photos_slide" id="toggle" src="images/1.jpg" alt="Photo d'illustration de la WebAgency 1">
+              <img class="photos_slide" src="images/2.jpg" alt="Photo d'illustration de la Webagency 2">
+            </div>
+            <div id="boutons_slider">
+              <a href="#slide1" id="bouton_gauche"><i class="fas fa-chevron-left"></i></a>
+              <a href="#slide2" id="bouton_droit"><i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div id="contenu_texte">
+              <h1><span id="webagency">WEBAGENCY</span> : L'AGENCE DE TOUS<br> VOS PROJETS !</h1>
+              <div id="slogan">
+                <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser!</p>
+              </div>
+              <div id="infos">Plus d'infos</div>
+            </div>
+            <div id="barre_defilement"></div>
+          </div>  
+        </div>
+
+        <article id="page_services"> 
+          <header>
+            <a id="services"></a>
+            <h2>NOS SERVICES</h2>
+            <div class="trait_et_rond">
+              <div class="trait"></div>
+              <div class="rond_bleu"></div>
+            </div>
+            <div id="presentation">
+              <p>La <span id="webagency_color">WebAgency</span> accompagne nos clients dans la création de sites internet. Notre agence web est capable de répondre à tous vos besoins et d'élaborer une véritable stratégie digitale organisée autour de 3 principes :</p>
+            </div>    
+          </header>
+
+          <div class="bloc_services">                             
+            <div class="photo_ordinateur">                                    
+              <img src="images/photo_ordi.png" alt="Photo d'un ordinateur" />
+            </div>  
+
+            <div class="liste_services">
+              <div id="uxdesign">
+                <div class="bloc_icones">
+                  <div class="icones">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="point"></div>
+                </div>
+
+                <div class="bloc_texte">
+                  <h3>UX design</h3>
+                  <p>Nous anticipons les attentes des visiteurs et rendons l’interface la plus ergonomique et intuitive possible en nous basant sur les ressentis des utilisateurs. Nous mêlons ainsi des objectifs stratégiques, des paramètres technologiques et des problématiques design.</p>                                      
+                </div>
+              </div>
+
+              <div id="uidesign">
+                <div class="bloc_icones">
+                  <div class="icones">
+                     <i class="fas fa-cubes"></i>
+                  </div>
+                  <div class="point"></div>
+                </div>
+
+                <div class="bloc_texte">
+                  <h3>UI design</h3>
+                  <p>L’environnement graphique dans lequel évolue l’utilisateur d’un site web est notre priorité. Notre mission consiste à créer une interface agréable, pratique et facile à prendre en main. Nous nous attachons particulièrement aux éléments perceptibles : éléments graphiques, boutons, navigation, typographie…</p>                                      
+                </div>
+              </div>
+
+              <div id="seo">
+                <div class="bloc_icones">
+                  <div class="icones">
+                    <i class="fas fa-chart-pie"></i>
+                  </div>
+                  <div class="point"></div>
+                </div>
+
+                <div class="bloc_texte">
+                  <h3>SEO</h3>
+                  <p>Notre objectif est d’améliorer la visibilité des sites web. Pour cela, nous maîtrisons l'ensemble de techniques de Webmarketing permettant de positionner un site internet, une page ou un document web dans les premiers résultats naturels des moteurs de recherche.</p>                                      
+                </div>
+              </div>                            
+            </div>   
+          </div>                          
+        </article>
+
+        <article id="page_projets"> 
+          <header>
+            <a id="projets"></a>                     
+            <h2>NOS PROJETS</h2>
+
+            <div class="trait_et_rond">
+              <div class="trait"></div>
+              <div class="rond_bleu"></div>
+            </div>
+                
+            <div id="nos_projets"><p>Présentation des projets</p></div>           
+          </header>
+
+          <nav id="menu">
+            <ul>
+              <li><a href="#ancre1">All Works</a></li>
+              <li><a href="#ancre2">Creative</a></li>
+              <li><a href="#ancre3">Corporate</a></li>                                         
+              <li><a href="#ancre4">Portfolio</a></li>        
+            </ul>
+          </nav>        
+
+          <div id="bloc_portfolio">
+            <figure class="image">                               
+              <img src="portfolio/01.jpg" alt="texte de description de l'image" />                                    
+              <figcaption>
+                <h3>Le personnage à lunettes</h3>
+                <p>Réalisation de personnages animés</p>                                 
+                <div class="oeil">                                
+                    <i class="far fa-eye"></i>                                  
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="image">
+              <img src="portfolio/02.jpg" alt="lunettes" />                               
+              <figcaption>
+                <h3>Le lapin rose</h3>
+                <p>Le design dans notre quotidien</p>
+                <div class="oeil">
+                    <i class="far fa-eye"></i>                                 
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="image">
+              <img src="portfolio/03.jpg" alt="marque" />                              
+              <figcaption>
+                <h3>Original Pompadour</h3>
+                <p>Existe depuis 1968</p>
+                <div class="oeil">
+                  <i class="far fa-eye"></i>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="image">                               
+              <img src="portfolio/04.jpg" alt="texte de description de l'image" />                                                                     
+              <figcaption>
+                <h3>Architecture</h3>
+                <p>Exposition de projets</p>
+                <div class="oeil">
+                  <i class="far fa-eye"></i>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="image">
+              <img src="portfolio/05.jpg" alt="lunettes" />                               
+              <figcaption>
+                <h3>Vente en ligne</h3>
+                <p>Création d'un site E-commerce</p>
+                <div class="oeil">
+                  <i class="far fa-eye"></i>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="image">
+              <img src="portfolio/06.jpg" alt="marque" />                               
+              <figcaption>
+                <h3>Exposition</h3>
+                <p>Arts de culture chinoise</p>
+                <div class="oeil">
+                  <i class="far fa-eye"></i>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="image">                              
+              <img src="portfolio/07.jpg" alt="texte de description de l'image" />                                  
+              <figcaption>
+                <h3>Industrie</h3>
+                <p>Technologie de pointe</p>
+                <div class="oeil">
+                  <i class="far fa-eye"></i>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="image">
+              <img src="portfolio/08.jpg" alt="lunettes" />      
+              <figcaption>
+                <h3>Matériel</h3>
+                <p>Vente de fournitures</p>
+                <div class="oeil">
+                  <i class="far fa-eye"></i>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="image">
+              <img src="portfolio/full.jpg" alt="marque" />                               
+              <figcaption>
+                <h3>Fast food</h3>
+                <p>Expert de la restauration rapide</p>
+                <div class="oeil">
+                  <i class="far fa-eye"></i>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article id="page_contact">
+          <header>
+            <a id="contact"></a>
+            <h2>NOUS CONTACTER</h2>
+            <div class="trait_et_rond">
+              <div class="trait"></div>
+              <div class="rond_bleu"></div>
+            </div>
+          </header>
+
+          <div id="bloc_map_et_formulaire">
+            <div id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1560.3728184628512!2d2.349833826751544!3d48.87300965927708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d'Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1547580641762"></iframe>
+              <div id="fond_bleu"></div>
+            </div>
+
+            <div id="formulaire">
+              <h3 id="titre_contact">Contact Info</h3>
+              <p>
+                <span class="sous_titre">WebAgency SAS</span><br>
+                25 Rue d'Hauteille 75010 Paris<br>
+                Tel : 01 02 03 04 04
+              </p>
+
+              <form method="post" action="traitement.php">
+                <p>
+                    <input type="text" class="style" name="nom" placeholder="Name" required />
+                </p>
+                <p>
+                    <input type="email" class="style" name="email" placeholder="Email" required />
+                </p>
+                <p>
+                    <input type="text" class="style" name="sujet" placeholder="Subject" required />
+                </p>
+                <p>
+                    <textarea id="message" name="message" maxlength="400" placeholder="Message" required ></textarea>
+                </p>
+                <p>
+                    <input type="submit" id="bouton_bleu" value="Send Message">
+                </p>            
+              </form>
+            </div>       
+          </div>
+        </article>
+      </section>
+
+      <footer>
+        <div id="bas_de_page">
+          <p>Julien Ohlbaum - OpenClassRooms, Projet n°1</p>
+        </div>
+      </footer> 
+    </div>
+  </body>
+</html>
